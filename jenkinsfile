@@ -1,6 +1,6 @@
 node { 
     stage('scm checkout'){
-        git 'https://github.com/narendra311777/mycode.git'
+        git 'https://github.com/narendra311777/springboot.git'
     }
     stage('compile'){
                 def mvnHome = tool name: 'M2' , type: 'maven'
@@ -30,7 +30,7 @@ node {
       
   #    sshagent(['tomcatdev']) {
    # // some block
-    #sh 'scp -o StrictHostKeyChecking=no target/*.war root@192.168.32.10:/opt/apache/webapps'
+    #sh 'scp -o StrictHostKeyChecking=no target/*.war root@192.168.32.5:/opt/apache/webapps'
     #}
    #}
 }
