@@ -26,12 +26,12 @@ node {
       ram''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'bhupathiraju.narendra@gmail.com'
    }
    
- #  stage('Deploy to Tomcat'){
+ //stage('Deploy to Tomcat'){
       
-  #    sshagent(['tomcatdev']) {
-   # // some block
-    #sh 'scp -o StrictHostKeyChecking=no target/*.war root@192.168.32.5:/opt/apache/webapps'
-    #}
-   #}
+ //    sshagent(['tomcatdev']) {
+    // some block
+   // #sh 'scp -o StrictHostKeyChecking=no target/*.war root@192.168.32.5:/opt/apache/webapps'
+    //#}
+   //#}
 }
     
